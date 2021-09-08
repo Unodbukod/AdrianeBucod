@@ -1,0 +1,45 @@
+h1{
+    color:aqua;
+    text-align: center;
+    font: size 50px;
+}
+h2{
+    color:aqua;
+    text-align: center;
+    font-size: larger;
+}
+body{
+    height: 100vh;
+background-image: url("blink.jpg");
+background-size: cover;
+background-position: center;
+}
+img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+header{
+    color:aqua;
+    text-align: center;
+    font-size: larger;
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+header .Navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+header .Navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .Navigation a:hover{
+    background: #fff;
+
+}
