@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    color:chartreuse;
+    margin: 30px 0 50px;
+
+}
+.Gallery{
+    margin: 10px 50px;
+
+}
+.Gallery img{
+    width: 230px ;
+    padding: 5px;
+    filter: grayscale();
+    transition: 1s;
+}
+.Gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
