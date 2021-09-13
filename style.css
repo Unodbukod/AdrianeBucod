@@ -1,16 +1,16 @@
 h1{
-    color:aqua;
+    color:black;
     text-align: center;
     font: size 50px;
 }
 h2{
-    color:aqua;
+    color:black;
     text-align: center;
     font-size: larger;
 }
 body{
     height: 100vh;
-background-image: url("blink.jpg");
+background-image: url("31231336-javascript-concept-blue-background-with-blue-text.jpg");
 background-size: cover;
 background-position: center;
 }
@@ -43,5 +43,13 @@ header .Navigation a:not(:last-child){
 }
 header .Navigation a:hover{
     background: black;
+}
+.Material{
+    font-size: 15px;
+    color: chartreuse;
+    text-align: center;
 
+}
+iframe{
+    align-self: center;
 }
