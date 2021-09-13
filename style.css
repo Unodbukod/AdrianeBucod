@@ -1,16 +1,16 @@
 h1{
-    color:black;
+    color:aqua;
     text-align: center;
     font: size 50px;
 }
 h2{
-    color:black;
+    color:aqua;
     text-align: center;
     font-size: larger;
 }
 body{
     height: 100vh;
-background-image: url("31231336-javascript-concept-blue-background-with-blue-text.jpg");
+background-color: black;
 background-size: cover;
 background-position: center;
 }
