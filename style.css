@@ -53,8 +53,9 @@ iframe{
     align-self: center;
 }
 .BACK{
+    text-align: center;
     border-style: inherit;
-    color: aliceblue;
+    color: black;
     font-size: 60px;
     text-decoration: none;
     font-weight: 500;
@@ -62,8 +63,9 @@ iframe{
     padding: 2px 15px;
     border-radius: 20px;
     transition: 0.6s;
-    transition-property: background;
+    transition-property: black;
 }
 .BACK a:hover{
-    background: black;
+    background: aqua;
+    
 }
