@@ -10,7 +10,7 @@ h2{
 }
 body{
     height: 100vh;
-background-image: url("blink.jpg");
+background-image: url("1.jpg");
 background-size: cover;
 background-position: center;
 }
@@ -43,5 +43,39 @@ header .Navigation a:not(:last-child){
 }
 header .Navigation a:hover{
     background: black;
+}
+.logo a{
+    font-family: cursive;
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+    margin: 100px;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 19px;
+    transition: 0.3 all ease;
+}
+ul{
+    font-style: italic;
+    margin: 0px;
+    margin-right: 100px;
+}
+ul li{
+    float: left;
+    padding: 0px 20px;
+    list-style: none;
+}
+ul li a:hover{
+    color: crimson;
 
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
