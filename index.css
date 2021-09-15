@@ -73,7 +73,7 @@ ul li a:hover{
 }
 nav{
     width: 100%;
-    background-color: black;
+    background-color: none;
     height: 80px;
     line-height: 80px;
     display: flex;
