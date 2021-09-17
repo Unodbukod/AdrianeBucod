@@ -2,23 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
-.logo a{
-    font-family: 'Special Elite', cursive;
-    font-size: 40px;
-    color: crimson;
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100px;
+padding:  10px 90px;
+box-sizing: border-box;
+background: rgba(0, 0, 0, 0.5);
+border-bottom: 1px solid #fff;
+}
+nav .logo {
+    padding: 22px 20px;
+    height:  80px;
+    float: left;
+    font-size: 24px;
     font-weight: bold;
-    margin: 50px;
-    left: 90%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 50%;
 }
 .Upper{
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(12, 62, 82);
     position: sticky;
-    top: 0;
-
+    top: 0; 
 }
 .Upper ul{
     display: flex;
@@ -31,6 +49,7 @@
     font-weight: bold;
 }
 .Upper ul li a{
+    line-height: 80px;
     text-decoration: none;
     color: white;
     padding: 8px 25px;
@@ -96,9 +115,8 @@ padding: 20px;
     z-index: 1;
     position: absolute;
     right: 62%;
-    height: 100vh;
-    
-    
+    height: 100vh; 
 }
+
 
 

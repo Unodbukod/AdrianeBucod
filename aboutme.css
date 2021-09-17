@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*NAVIGATION*/
+.navigation-container{
+
+    position: absolute;
+    width: 1468px;
+    height: 74px;
+    left: 0px;
+    top: 48px;
+    
+}
+.wrapper{
+    max-width: 1200px;
+    margin-left: 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+nav ul{
+    display: flex;
+}
+nav .logo{
+    font-family: 'Mr Dafoe', cursive;
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+color:#5F4444;
+}
+.nav-items li{
+    list-style: none;
+    margin-left: 100%;
+}
+.nav-items li a{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 27px;
+    color: #5F4444;
+}
+.nav-items li a:hover{
+    color: white;
+    transition: 0.7s;
+    border-style:hidden;
+
+}
+/*Header*/
+.header-container{
+    background: linear-gradient(180deg, #DE8E16 5.62%, rgba(255, 248, 183, 0.88) 72.04%);
+}
+
+.header-container h1{
+    position: absolute;
+width: 270px;
+height: 64px;
+left: 588px;
+top: 125px;
+
+font-family: 'Italianno', cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 64px;
+color: white;
+margin-left: 1%;
+text-shadow: 0px 25px 4px rgba(18, 18, 18, 0.25);
+}
+.header-container h2{
+    position: absolute;
+width: 598px;
+height: 172px;
+left: 587px;
+top: 332px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+margin-left: 1%;
+text-shadow: 0px 25px 4px rgba(18, 18, 18, 0.25);
+color: #5F4444;
+}
+.header-container h5{
+    position: absolute;
+    width: 592px;
+    height: 50px;
+    left: 588px;
+    top: 479px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    margin-left: 1%;
+    text-shadow: 0px 25px 4px rgba(18, 18, 18, 0.25);
+    /* Hero image */
+}
+header .hero-image img{
+width: 464px;
+height: 783px;
+left: 122px;
+top: 173px;
+margin-top: 15%;
+margin-bottom: 15%;
+border-radius: 210px;
+transition: 1s;
+
+}
+header .hero-image img:hover{
+    transform:rotate(-360deg);
+}
+
+
