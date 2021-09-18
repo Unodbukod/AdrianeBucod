@@ -41,8 +41,9 @@ color:#5F4444;
 }
 .nav-items li a{
     font-family: 'Mr Dafoe', cursive;
-    font-size: 27px;
+    font-size:40px;
     color: #5F4444;
+    margin-left: 400;
 }
 .nav-items li a:hover{
     color: white;
@@ -53,6 +54,11 @@ color:#5F4444;
 /*Header*/
 .header-container{
     background: linear-gradient(180deg, #DE8E16 5.62%, rgba(255, 248, 183, 0.88) 72.04%);
+    width: 2880px;
+height: 1405px;
+
+
+
 }
 
 .header-container h1{
@@ -68,7 +74,8 @@ font-weight: bold;
 font-size: 64px;
 line-height: 64px;
 color: white;
-margin-left: 1%;
+margin-top: 5%;
+margin-left: 2%;
 text-shadow: 0px 25px 4px rgba(18, 18, 18, 0.25);
 }
 .header-container h2{
@@ -84,7 +91,8 @@ font-weight: normal;
 font-size: 64px;
 line-height: 64px;
 /* or 100% */
-margin-left: 1%;
+margin-left: 2%;
+margin-top: 5%;
 text-shadow: 0px 25px 4px rgba(18, 18, 18, 0.25);
 color: #5F4444;
 }
@@ -106,7 +114,8 @@ color: #5F4444;
     text-transform: uppercase;
     
     color: #000000;
-    margin-left: 1%;
+    margin-left: 2%;
+    margin-top: 5%;
     text-shadow: 0px 25px 4px rgba(18, 18, 18, 0.25);
     /* Hero image */
 }
@@ -119,6 +128,7 @@ margin-top: 15%;
 margin-bottom: 15%;
 border-radius: 210px;
 transition: 1s;
+margin-top: 20%;
 
 }
 header .hero-image img:hover{

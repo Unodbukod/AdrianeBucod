@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("1672048.jpg");
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:#DE8E16;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: linear-gradient(180deg, #DE8E16 5.62%, rgba(255, 248, 183, 0.88) 72.04%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin: 20px;
+    font-size: 16px;
+    color: darkcyan  ;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    font-size: 30px;
+    color:midnightblue;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background-color: rgba(0,0,0,0.6);
+    
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #DE8E16;
+    font-weight: 500;
+}
+.contactForm .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputbox input,
+.contactForm .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid violet;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #DE8E16;   
+}
+.contactForm .inputbox input:focus ~ span,
+.contactForm .inputbox input:valid ~ span,
+.contactForm .inputbox textarea:focus ~ span,
+.contactForm .inputbox textarea:valid ~ span{
+    color: #DE8E16;
+    font-size: 12px;
+    transform: translateY(-30px);
+}
+.contactForm .inputbox input[type="submit"]{
+    width: 100px;
+    background: linear-gradient(180deg, #DE8E16 5.62%, rgba(255, 248, 183, 0.88) 72.04%);;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo .contactForm{
+        width: 100%;
+    }
+
+}
+/* NAVIGATION */
+.navigation-container{
+
+    position: absolute;
+    width: 1468px;
+    height: 74px;
+    left: 0px;
+    top: 48px;
+    z-index: 1;
+}
+.wrapper{
+    max-width: 1200px;
+    margin-left: 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+nav ul{
+    display: flex;
+}
+nav .logo a{
+    font-family: 'Mr Dafoe', cursive;
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+color:#DE8E16;
+;
+}
+.nav-items li{
+    list-style: none;
+    margin-left: 100%;
+}
+.nav-items li a{
+    font-family: 'Mr Dafoe', cursive;
+    font-size:40px;
+color:#DE8E16;
+    margin-left: 400;
+}
+nav .logo a:hover{
+    color: white;
+    transition: 0.7s;
+    border-style:hidden;
+
+}
