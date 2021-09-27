@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "webfonts",
+			"path": "..\\..\\Web Dev\\Bucod\\webfonts"
+		},
+		{
+			"name": "css",
+			"path": "..\\..\\Web Dev\\Bucod\\css"
+		},
+		{
+			"name": "AdrianeBucod",
+			"path": "."
+		},
+		{
+			"name": "js",
+			"path": "..\\..\\Web Dev\\Bucod\\js"
+		}
+	],
+	"settings": {}
+}
